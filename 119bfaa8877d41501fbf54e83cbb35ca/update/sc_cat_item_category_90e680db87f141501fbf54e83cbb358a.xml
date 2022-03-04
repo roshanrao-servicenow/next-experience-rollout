@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Request ServiceNow Next Experience">e2ebb2ec877d41501fbf54e83cbb3577</sc_cat_item>
+        <sc_category display_value="Software">b7a5e9a887370010b0fb0c0626cb0ba5</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-25 22:23:15</sys_created_on>
+        <sys_id>90e680db87f141501fbf54e83cbb358a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Software.Request ServiceNow Next Experience</sys_name>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name>sc_cat_item_category_90e680db87f141501fbf54e83cbb358a</sys_update_name>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-25 22:23:15</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

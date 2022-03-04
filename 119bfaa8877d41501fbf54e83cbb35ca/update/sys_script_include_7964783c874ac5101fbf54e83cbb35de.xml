@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_enable_ne.PrefMgmtUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Script include providing utility functions that support Flows/Scripts/Jobs to help set the Next Experience enablement preference for users either individually or as a collection based on role assignment/group membership.</description>
+        <name>PrefMgmtUtil</name>
+        <script><![CDATA[var PrefMgmtUtil = Class.create();
+PrefMgmtUtil.prototype = {
+    initialize: function() {},
+	
+	USER_PREF_NAME: "glide.ui.polaris.use",
+	
+	COLLECTION_TYPE_ROLE: "role",
+	
+	COLLECTION_TYPE_GROUP: "group",
+
+    /** 
+     * For a provided list of role names (array or comma-separated string), the function returns
+     * a unique list (array) of sys_id values for users that have the role.
+	 * Example: var userIdList = new PrefMgmtUtil().getUsersInRoles(["admin", "itil"], true);
+     **/
+    getUsersInRoles: function(roleNames, limit /*optional*/ ) {
+
+        // convert role names to comma-sep list
+        var roleNameStr;
+        if (Array.isArray(roleNames))
+            roleNameStr = roleNames.join(",");
+        else
+            roleNameStr = roleNames; // assuming string
+
+        // query
+        var usersInRoles = new GlideRecord("sys_user_has_role");
+        usersInRoles.addEncodedQuery("role.nameIN" + roleNameStr);
+        if (limit)
+            usersInRoles.setLimit(limit);
+        usersInRoles.query();
+
+        var userIdList = []; // array of sys_id that will be returned
+        while (usersInRoles.next()) {
+            if (userIdList.indexOf(usersInRoles.getValue("user")) < 0) // ensure uniqueness
+				userIdList.push(usersInRoles.getValue("user"));
+        }
+        return userIdList;
+    },
+
+	
+    /** 
+     * For a provided list of role names (array or comma-separated string), the function returns
+     * a unique list (array) of sys_id values for users that have the role.
+	 * Example: var userIdList = new PrefMgmtUtil().getUsersInGroups(["Hardware", "Software"], true);
+     **/
+    getUsersInGroups: function(groupNames, limit /*optional*/ ) {
+
+        // convert group names to comma-sep list
+        var groupNamesStr;
+        if (Array.isArray(groupNames))
+            groupNamesStr = groupNames.join(",");
+        else
+            groupNamesStr = groupNames; // assuming string
+
+        // query
+        var usersInGroups = new GlideRecord("sys_user_grmember");
+        usersInGroups.addEncodedQuery("group.nameIN" + groupNamesStr);
+        if (limit)
+            usersInGroups.setLimit(limit);
+        usersInGroups.query();
+
+        var userIdList = []; // array of sys_id that will be returned
+        while (usersInGroups.next()) {
+            if (userIdList.indexOf(usersInGroups.getValue("user")) < 0) // ensure uniqueness
+                userIdList.push(usersInGroups.getValue("user"));
+        }
+        return userIdList;
+    },
+
+	/**
+	* Given a user ID (sys_id), will set the value of glide.ui.polaris.use user preference
+	* to true/false. Note that if the preference does not exist, it will insert 
+	* a preference record in the table.
+	* It returns a JSON object with a code and message. The message is human readable 
+	* and can be used for logging. Value for code can be:
+	* 0: no action
+	* 1: preference record inserted
+	* 2: preference record updated
+	*
+	**/
+    savePreference: function(userId, prefName, prefValue) {
+		var outputs = {};
+		
+		if (!userId || typeof prefName === "undefined" || typeof prefValue === "undefined") {
+			outputs.code = 0;
+			outputs.message = "userId, prefName, prefValue are required parameters to savePreference";
+			outputs.userId = userId;
+			return outputs;
+		}
+		
+        var prefs = new GlideRecord("sys_user_preference");
+        prefs.addQuery("name", prefName);
+        prefs.addQuery("user", userId);
+        prefs.query();
+
+		var message = "";
+        if (prefs.next()) {
+            prefs.setValue("value", prefValue.toString());
+            prefs.update();
+			outputs.code = 2;
+            outputs.message = "Set existing " + prefName + " = " + prefValue + " for user sys_id " + userId;
+
+        } else {
+            prefs.newRecord();
+            prefs.setValue("name", prefName);
+            prefs.setValue("user", userId);
+            prefs.setValue("value", prefValue.toString());
+            prefs.system = "false";
+            prefs.description = "Enable Next Experience for user";
+            prefs.insert();
+            outputs.message = "Set new " + prefName + " = " + prefValue + " for user sys_id " + userId;
+			outputs.code = 1;
+
+        }
+		if (gs.isDebugging())
+				outputs.message += "-> " + prefs.getDisplayValue("user");
+		outputs.preferenceRecordId = prefs.getUniqueValue();
+		outputs.preferenceValue = prefs.getValue("value") === "true";
+		outputs.userId = userId;
+		
+		return outputs;
+    },
+	
+	
+	/**
+	* Save preference for users in roles/groups. Parameters are:
+	* collectionType: use constant COLLECTION_TYPE_ROLE or COLLECTION_TYPE_GROUP
+	* collectionNames: Array or comma-separated list of roles or groups
+	* enableNext: true | false
+	* limit: Limit on records to process
+	* 
+	* Example:
+	* var prefUtil = new PrefMgmtUtil();
+	* var outputList = prefUtil.savePreferenceForUsers(prefUtil.COLLECTION_TYPE_ROLE, ["admin", "itil"], true, 100);
+	**/
+	savePreferenceForUsers: function(collectionType, collectionNames, enableNext, limit) {
+		
+		// Build list of user IDs
+		var userIdList;
+		if (collectionType === this.COLLECTION_TYPE_ROLE)
+			userIdList = this.getUsersInRoles(collectionNames, limit);
+		else
+			userIdList = this.getUsersInGroups(collectionNames, limit);
+		if (gs.isDebugging())
+			gs.debug("savePreferenceForUsers: Processing userIdList of " + (userIdList?userIdList.length:0));
+		
+		// Iterate and save preference
+		var savePreferenceFn = this.savePreference;
+		var prefName = this.USER_PREF_NAME;
+		var outputList = userIdList.map(function(userId) {
+			return savePreferenceFn(userId, prefName, enableNext);
+		});
+		
+		if (gs.isDebugging())
+			gs.debug("savePreferenceForUsers: Processed userIdList and got " + JSON.stringify(outputList));
+		return outputList;
+	},
+	
+
+    type: 'PrefMgmtUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-02 17:37:05</sys_created_on>
+        <sys_id>7964783c874ac5101fbf54e83cbb35de</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>PrefMgmtUtil</sys_name>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name>sys_script_include_7964783c874ac5101fbf54e83cbb35de</sys_update_name>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:47:16</sys_updated_on>
+    </sys_script_include>
+</record_update>

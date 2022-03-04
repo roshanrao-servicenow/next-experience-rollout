@@ -1,0 +1,3341 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch0-hotfix1-02-01-2022_02-01-2022_2323.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Toggles the glide.ui.polaris.use user preference</description>
+        <ih_action>false</ih_action>
+        <internal_name>toggle_polaris_user_preference</internal_name>
+        <label_cache>[{"name":"{{action.next_experience_enabled}}","label":"action➛Next Experience Enabled","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.user}}","label":"action➛User","type":"action","ref":"","reference_display":"User","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].message}}","label":"step➛Set user preference➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"6df0eedd-b330-4542-9643-5db26f34d2af"}},{"name":"{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].__step_status__.message}}","label":"step➛Set user preference➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].variable}}","label":"step➛Set user preference➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].updated_preference_valye}}","label":"step➛Set user preference➛Updated Preference Valye","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].user_id}}","label":"step➛Set user preference➛User ID","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].updated_preference_value}}","label":"step➛Set user preference➛Updated Preference Value","type":"step","ref":"","reference_display":"","base_type":"array.boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].user_preference_value}}","label":"step➛Set user preference➛User Preference Value","type":"step","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].preference_record_id}}","label":"step➛Set user preference➛Preference Record ID","type":"step","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master_snapshot>41954bac87bd41501fbf54e83cbb35c3</master_snapshot>
+        <name>Toggle Polaris User Preference</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 22:54:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a931c7e487bd41501fbf54e83cbb350d</sys_id>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_name>Toggle Polaris User Preference</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_a931c7e487bd41501fbf54e83cbb350d</sys_update_name>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:44</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=a931c7e487bd41501fbf54e83cbb350d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a931c7e487bd41501fbf54e83cbb350d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>a931c7e487bd41501fbf54e83cbb350d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:20</sys_created_on>
+        <sys_id>0c93c3e887bd41501fbf54e83cbb3587</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-02 20:14:45</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD7783c3e818bd4150cb8621c4b0732773":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD7783c3e818bd4150cb8621c4b0732773.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"7c644bb6-9ae0-4d38-a594-b410b558dc81\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD7783c3e818bd4150cb8621c4b0732773\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">c093c3e887bd41501fbf54e83cbb3577</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>a931c7e487bd41501fbf54e83cbb350d</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:17</sys_created_on>
+        <sys_id>12c93649874289101fbf54e83cbb3572</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:17</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Updated Preference Value">84b7b285874289101fbf54e83cbb35f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>a931c7e487bd41501fbf54e83cbb350d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:20</sys_created_on>
+        <sys_id>4893c3e887bd41501fbf54e83cbb3587</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:04:20</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">4493c3e887bd41501fbf54e83cbb357d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a931c7e487bd41501fbf54e83cbb350d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>message</field>
+        <id>a931c7e487bd41501fbf54e83cbb350d</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:23:16</sys_created_on>
+        <sys_id>1de707a087fd41501fbf54e83cbb35cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:17</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a931c7e487bd41501fbf54e83cbb350d</table>
+        <value>{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pref_record_id</field>
+        <id>a931c7e487bd41501fbf54e83cbb350d</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:33</sys_created_on>
+        <sys_id>5ad9b649874289101fbf54e83cbb3592</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:33</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a931c7e487bd41501fbf54e83cbb350d</table>
+        <value>{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].preference_record_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>updated_pref_value</field>
+        <id>a931c7e487bd41501fbf54e83cbb350d</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:17</sys_created_on>
+        <sys_id>9ac93649874289101fbf54e83cbb3571</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:17</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a931c7e487bd41501fbf54e83cbb350d</table>
+        <value>{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].user_preference_value}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>a931c7e487bd41501fbf54e83cbb350d</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:20</sys_created_on>
+        <sys_id>c493c3e887bd41501fbf54e83cbb3587</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:04:20</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a931c7e487bd41501fbf54e83cbb350d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>a931c7e487bd41501fbf54e83cbb350d</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:20</sys_created_on>
+        <sys_id>0493c3e887bd41501fbf54e83cbb3587</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:04:20</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a931c7e487bd41501fbf54e83cbb350d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=a931c7e487bd41501fbf54e83cbb350d^sys_idNOT IN7d60d11187fdc1101fbf54e83cbb35c7,ff83c3e887bd41501fbf54e83cbb354c"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Toggle Polaris User Preference">a931c7e487bd41501fbf54e83cbb350d</action>
+        <cid>4e6680a0-8cb6-4574-86a7-151fe8512361</cid>
+        <error_handling_type>2</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Log step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-19 22:36:38</sys_created_on>
+        <sys_id>7d60d11187fdc1101fbf54e83cbb35c7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:51:37</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7d60d11187fdc1101fbf54e83cbb35c7"/>
+    <sys_element_mapping action="delete_multiple" query="id=7d60d11187fdc1101fbf54e83cbb35c7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>7d60d11187fdc1101fbf54e83cbb35c7</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-19 22:36:38</sys_created_on>
+        <sys_id>7560d11187fdc1101fbf54e83cbb35ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-19 22:36:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
+        <value>Toggling Next Experience = {{action.next_experience_enabled}} for user{{action.user}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7d60d11187fdc1101fbf54e83cbb35c7"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7d60d11187fdc1101fbf54e83cbb35c7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7d60d11187fdc1101fbf54e83cbb35c7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_7d60d11187fdc1101fbf54e83cbb35c7"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Toggle Polaris User Preference">a931c7e487bd41501fbf54e83cbb350d</action>
+        <cid>5481f1d7-9636-456d-96a6-d1b82e5c39c7</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Set user preference</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:19</sys_created_on>
+        <sys_id>ff83c3e887bd41501fbf54e83cbb354c</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:51:28</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ff83c3e887bd41501fbf54e83cbb354c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff83c3e887bd41501fbf54e83cbb354c</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:19</sys_created_on>
+        <sys_id>3383c3e887bd41501fbf54e83cbb3563</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:51:28</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var prefUtil = new x_snc_enable_ne.PrefMgmtUtil();
+  var fnOutput = prefUtil.savePreference(inputs.user.sys_id, prefUtil.USER_PREF_NAME, inputs.toggleVal);
+  outputs.user_id = fnOutput.userId;
+  outputs.message = fnOutput.message;
+  outputs.user_preference_value = fnOutput.preferenceValue;
+  outputs.preference_record_id = fnOutput.preferenceRecordId;
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff83c3e887bd41501fbf54e83cbb354c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:19</sys_created_on>
+        <sys_id>3b83c3e887bd41501fbf54e83cbb3570</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:04:19</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">fb83c3e887bd41501fbf54e83cbb3555</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff83c3e887bd41501fbf54e83cbb354c</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:19</sys_created_on>
+        <sys_id>7783c3e887bd41501fbf54e83cbb3562</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:04:19</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ff83c3e887bd41501fbf54e83cbb354c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ff83c3e887bd41501fbf54e83cbb354c</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:19</sys_created_on>
+        <sys_id>bb83c3e887bd41501fbf54e83cbb3561</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:04:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>ff83c3e887bd41501fbf54e83cbb354c</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:19</sys_created_on>
+        <sys_id>f383c3e887bd41501fbf54e83cbb3562</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:04:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toggleVal</field>
+        <id>ff83c3e887bd41501fbf54e83cbb354c</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:19</sys_created_on>
+        <sys_id>b783c3e887bd41501fbf54e83cbb3570</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:04:19</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ff83c3e887bd41501fbf54e83cbb354c</table>
+        <value>{{action.next_experience_enabled}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>ff83c3e887bd41501fbf54e83cbb354c</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:19</sys_created_on>
+        <sys_id>f383c3e887bd41501fbf54e83cbb3570</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:04:19</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ff83c3e887bd41501fbf54e83cbb354c</table>
+        <value>{{action.user}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_ff83c3e887bd41501fbf54e83cbb354c^id=ff83c3e887bd41501fbf54e83cbb354c"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=ff83c3e887bd41501fbf54e83cbb354c"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ff83c3e887bd41501fbf54e83cbb354c^sys_idNOT IN7783c3e887bd41501fbf54e83cbb355a,fb83c3e887bd41501fbf54e83cbb3555"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Set user preference">ff83c3e887bd41501fbf54e83cbb354c</model>
+        <model_id>ff83c3e887bd41501fbf54e83cbb354c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_ff83c3e887bd41501fbf54e83cbb354c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:19</sys_created_on>
+        <sys_id>7783c3e887bd41501fbf54e83cbb355a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:11:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>toggleVal</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Set user preference">ff83c3e887bd41501fbf54e83cbb354c</model>
+        <model_id>ff83c3e887bd41501fbf54e83cbb354c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_ff83c3e887bd41501fbf54e83cbb354c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:19</sys_created_on>
+        <sys_id>fb83c3e887bd41501fbf54e83cbb3555</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:04:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ff83c3e887bd41501fbf54e83cbb354c^sys_idNOT IN01293609874289101fbf54e83cbb3586,41293609874289101fbf54e83cbb3581,41293609874289101fbf54e83cbb358a,566847e087fd41501fbf54e83cbb3504"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=57456d41-065c-43dd-9b74-1926bd43296c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user_preference_value</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>User Preference Value</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Set user preference">ff83c3e887bd41501fbf54e83cbb354c</model>
+        <model_id>ff83c3e887bd41501fbf54e83cbb354c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ff83c3e887bd41501fbf54e83cbb354c</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:51:28</sys_created_on>
+        <sys_id>01293609874289101fbf54e83cbb3586</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:51:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6018b0ab-741c-42c0-9265-d5adb63f5539</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>User ID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Set user preference">ff83c3e887bd41501fbf54e83cbb354c</model>
+        <model_id>ff83c3e887bd41501fbf54e83cbb354c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ff83c3e887bd41501fbf54e83cbb354c</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:51:28</sys_created_on>
+        <sys_id>41293609874289101fbf54e83cbb3581</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:51:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID),uiUniqueId=6256cdf2-ea53-4683-8217-f4c1cfaba323</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>preference_record_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label>Preference Record ID</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Set user preference">ff83c3e887bd41501fbf54e83cbb354c</model>
+        <model_id>ff83c3e887bd41501fbf54e83cbb354c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ff83c3e887bd41501fbf54e83cbb354c</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:51:28</sys_created_on>
+        <sys_id>41293609874289101fbf54e83cbb358a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:51:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6df0eedd-b330-4542-9643-5db26f34d2af</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>message</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Message</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Set user preference">ff83c3e887bd41501fbf54e83cbb354c</model>
+        <model_id>ff83c3e887bd41501fbf54e83cbb354c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ff83c3e887bd41501fbf54e83cbb354c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:25:31</sys_created_on>
+        <sys_id>566847e087fd41501fbf54e83cbb3504</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:51:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ff83c3e887bd41501fbf54e83cbb354c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ff83c3e887bd41501fbf54e83cbb354c^sys_idNOT IN41293609874289101fbf54e83cbb3585,81293609874289101fbf54e83cbb3589,9a6847e087fd41501fbf54e83cbb3508,c1293609874289101fbf54e83cbb358d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>user_id</element>
+        <help/>
+        <hint/>
+        <label>User ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_ff83c3e887bd41501fbf54e83cbb354c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:51:28</sys_created_on>
+        <sys_id>41293609874289101fbf54e83cbb3585</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:51:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>user_preference_value</element>
+        <help/>
+        <hint/>
+        <label>User Preference Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_ff83c3e887bd41501fbf54e83cbb354c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:51:28</sys_created_on>
+        <sys_id>81293609874289101fbf54e83cbb3589</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:51:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>message</element>
+        <help/>
+        <hint/>
+        <label>Message</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_ff83c3e887bd41501fbf54e83cbb354c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:25:31</sys_created_on>
+        <sys_id>9a6847e087fd41501fbf54e83cbb3508</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:25:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>preference_record_id</element>
+        <help/>
+        <hint/>
+        <label>Preference Record ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_ff83c3e887bd41501fbf54e83cbb354c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:51:28</sys_created_on>
+        <sys_id>c1293609874289101fbf54e83cbb358d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:51:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=a931c7e487bd41501fbf54e83cbb350d^sys_idNOT IN8a818fa487bd41501fbf54e83cbb3521,8e81c32887bd41501fbf54e83cbb35ee"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=2191ab87-d35b-46c4-a6e5-ae4ae491c6f7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>next_experience_enabled</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Next Experience Enabled</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Toggle Polaris User Preference">a931c7e487bd41501fbf54e83cbb350d</model>
+        <model_id>a931c7e487bd41501fbf54e83cbb350d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a931c7e487bd41501fbf54e83cbb350d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 22:55:27</sys_created_on>
+        <sys_id>8a818fa487bd41501fbf54e83cbb3521</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 22:55:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8a818fa487bd41501fbf54e83cbb3521"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=d90d9a9f-9dd0-46e1-84c0-b213190b737f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_user</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>User</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Toggle Polaris User Preference">a931c7e487bd41501fbf54e83cbb350d</model>
+        <model_id>a931c7e487bd41501fbf54e83cbb350d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a931c7e487bd41501fbf54e83cbb350d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 22:55:28</sys_created_on>
+        <sys_id>8e81c32887bd41501fbf54e83cbb35ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 22:55:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8e81c32887bd41501fbf54e83cbb35ee"/>
+    <sys_hub_action_output action="delete_multiple" query="model=a931c7e487bd41501fbf54e83cbb350d^sys_idNOT IN09a78f6087fd41501fbf54e83cbb352a,4493c3e887bd41501fbf54e83cbb357d,56c93649874289101fbf54e83cbb3569,84b7b285874289101fbf54e83cbb35f2,c093c3e887bd41501fbf54e83cbb3577"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=42d5fef3-c245-4943-9e67-3d3b4b0fb134</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>message</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Message</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Toggle Polaris User Preference">a931c7e487bd41501fbf54e83cbb350d</model>
+        <model_id>a931c7e487bd41501fbf54e83cbb350d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_a931c7e487bd41501fbf54e83cbb350d</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:22:09</sys_created_on>
+        <sys_id>09a78f6087fd41501fbf54e83cbb352a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:23:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=09a78f6087fd41501fbf54e83cbb352a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=09a78f6087fd41501fbf54e83cbb352a"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=a4077ea7-24c7-4502-a2e9-6788be36db80,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Toggle Polaris User Preference">a931c7e487bd41501fbf54e83cbb350d</model>
+        <model_id>a931c7e487bd41501fbf54e83cbb350d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_a931c7e487bd41501fbf54e83cbb350d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:20</sys_created_on>
+        <sys_id>4493c3e887bd41501fbf54e83cbb357d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:04:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4493c3e887bd41501fbf54e83cbb357d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4493c3e887bd41501fbf54e83cbb357d"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID),uiUniqueId=4049cac1-7fdc-4187-8bc9-b246a5f21ce7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>pref_record_id</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">GUID</internal_type>
+        <label>Preference Record ID</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Toggle Polaris User Preference">a931c7e487bd41501fbf54e83cbb350d</model>
+        <model_id>a931c7e487bd41501fbf54e83cbb350d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_a931c7e487bd41501fbf54e83cbb350d</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:17</sys_created_on>
+        <sys_id>56c93649874289101fbf54e83cbb3569</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=56c93649874289101fbf54e83cbb3569"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=56c93649874289101fbf54e83cbb3569"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=861f7bdc-378f-4fdd-8834-0db730d20c92</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>updated_pref_value</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Updated Preference Value</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Toggle Polaris User Preference">a931c7e487bd41501fbf54e83cbb350d</model>
+        <model_id>a931c7e487bd41501fbf54e83cbb350d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_a931c7e487bd41501fbf54e83cbb350d</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:45:07</sys_created_on>
+        <sys_id>84b7b285874289101fbf54e83cbb35f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=84b7b285874289101fbf54e83cbb35f2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=84b7b285874289101fbf54e83cbb35f2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD7783c3e818bd4150cb8621c4b0732773,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=7c644bb6-9ae0-4d38-a594-b410b558dc81</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Toggle Polaris User Preference">a931c7e487bd41501fbf54e83cbb350d</model>
+        <model_id>a931c7e487bd41501fbf54e83cbb350d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_a931c7e487bd41501fbf54e83cbb350d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:19</sys_created_on>
+        <sys_id>c093c3e887bd41501fbf54e83cbb3577</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:04:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c093c3e887bd41501fbf54e83cbb3577"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c093c3e887bd41501fbf54e83cbb3577"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a931c7e487bd41501fbf54e83cbb350d"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=a931c7e487bd41501fbf54e83cbb350d^sys_idNOT INce81072887bd41501fbf54e83cbb3512"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Toggle Polaris User Preference">a931c7e487bd41501fbf54e83cbb350d</action_type_id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 22:55:28</sys_created_on>
+        <sys_id>ce81072887bd41501fbf54e83cbb3512</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 22:55:28</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=ce81072887bd41501fbf54e83cbb3512"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_a931c7e487bd41501fbf54e83cbb350d^sys_idNOT IN4a81c32887bd41501fbf54e83cbb35ed,8681c32887bd41501fbf54e83cbb35f5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>next_experience_enabled</element>
+        <help/>
+        <hint/>
+        <label>Next Experience Enabled</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a931c7e487bd41501fbf54e83cbb350d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 22:55:28</sys_created_on>
+        <sys_id>4a81c32887bd41501fbf54e83cbb35ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 22:55:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>user</element>
+        <help/>
+        <hint/>
+        <label>User</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a931c7e487bd41501fbf54e83cbb350d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 22:55:28</sys_created_on>
+        <sys_id>8681c32887bd41501fbf54e83cbb35f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 22:55:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_a931c7e487bd41501fbf54e83cbb350d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_a931c7e487bd41501fbf54e83cbb350d^sys_idNOT IN49a78f6087fd41501fbf54e83cbb352e,8093c3e887bd41501fbf54e83cbb3584,80b7b285874289101fbf54e83cbb35f7,8493c3e887bd41501fbf54e83cbb357c,96c93649874289101fbf54e83cbb356d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>message</element>
+        <help/>
+        <hint/>
+        <label>Message</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a931c7e487bd41501fbf54e83cbb350d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:22:09</sys_created_on>
+        <sys_id>49a78f6087fd41501fbf54e83cbb352e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:22:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a931c7e487bd41501fbf54e83cbb350d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:20</sys_created_on>
+        <sys_id>8093c3e887bd41501fbf54e83cbb3584</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:04:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>updated_pref_value</element>
+        <help/>
+        <hint>Provides value stored in user preference after script execution</hint>
+        <label>Updated Preference Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a931c7e487bd41501fbf54e83cbb350d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:45:07</sys_created_on>
+        <sys_id>80b7b285874289101fbf54e83cbb35f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:45:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a931c7e487bd41501fbf54e83cbb350d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:04:20</sys_created_on>
+        <sys_id>8493c3e887bd41501fbf54e83cbb357c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:04:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>pref_record_id</element>
+        <help/>
+        <hint/>
+        <label>Preference Record ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a931c7e487bd41501fbf54e83cbb350d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:17</sys_created_on>
+        <sys_id>96c93649874289101fbf54e83cbb356d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_a931c7e487bd41501fbf54e83cbb350d"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=a931c7e487bd41501fbf54e83cbb350d^sys_idNOT IN21958bac87bd41501fbf54e83cbb3545"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Toggle Polaris User Preference">a931c7e487bd41501fbf54e83cbb350d</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"21958bac87bd41501fbf54e83cbb3545","name":"plan","plan_signature":null}}</plan>
+        <snapshot>4de93a49874289101fbf54e83cbb3589</snapshot>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>21958bac87bd41501fbf54e83cbb3545</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:45</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Toggles the glide.ui.polaris.use user preference</description>
+        <internal_name>toggle_polaris_user_preference</internal_name>
+        <label_cache>[{"name":"{{action.next_experience_enabled}}","label":"action➛Next Experience Enabled","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.user}}","label":"action➛User","type":"action","ref":"","reference_display":"User","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].message}}","label":"step➛Set user preference➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"6df0eedd-b330-4542-9643-5db26f34d2af"}},{"name":"{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].__step_status__.message}}","label":"step➛Set user preference➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].variable}}","label":"step➛Set user preference➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].updated_preference_valye}}","label":"step➛Set user preference➛Updated Preference Valye","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].user_id}}","label":"step➛Set user preference➛User ID","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].updated_preference_value}}","label":"step➛Set user preference➛Updated Preference Value","type":"step","ref":"","reference_display":"","base_type":"array.boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].user_preference_value}}","label":"step➛Set user preference➛User Preference Value","type":"step","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].preference_record_id}}","label":"step➛Set user preference➛Preference Record ID","type":"step","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master>true</master>
+        <name>Toggle Polaris User Preference</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Toggle Polaris User Preference">a931c7e487bd41501fbf54e83cbb350d</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>41954bac87bd41501fbf54e83cbb35c3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:43</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=41954bac87bd41501fbf54e83cbb35c3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=41954bac87bd41501fbf54e83cbb35c3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>41954bac87bd41501fbf54e83cbb35c3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>11958bac87bd41501fbf54e83cbb3505</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-02 20:28:56</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDd9954baca6bd4150f10b64a998f15cf3":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDd9954baca6bd4150f10b64a998f15cf3.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"7c644bb6-9ae0-4d38-a594-b410b558dc81\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDd9954baca6bd4150f10b64a998f15cf3\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">91954bac87bd41501fbf54e83cbb35f6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>41954bac87bd41501fbf54e83cbb35c3</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:44</sys_created_on>
+        <sys_id>30e93a49874289101fbf54e83cbb3587</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Updated Preference Value">b8e93a49874289101fbf54e83cbb357a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>41954bac87bd41501fbf54e83cbb35c3</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>5d958bac87bd41501fbf54e83cbb3504</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">59954bac87bd41501fbf54e83cbb35fb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=41954bac87bd41501fbf54e83cbb35c3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>message</field>
+        <id>41954bac87bd41501fbf54e83cbb35c3</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-19 22:16:10</sys_created_on>
+        <sys_id>4ebb81d587bdc1101fbf54e83cbb3507</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:44</sys_updated_on>
+        <table>var__m_sys_hub_action_output_41954bac87bd41501fbf54e83cbb35c3</table>
+        <value>{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pref_record_id</field>
+        <id>41954bac87bd41501fbf54e83cbb35c3</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:44</sys_created_on>
+        <sys_id>38e93a49874289101fbf54e83cbb3586</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:44</sys_updated_on>
+        <table>var__m_sys_hub_action_output_41954bac87bd41501fbf54e83cbb35c3</table>
+        <value>{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].preference_record_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>updated_pref_value</field>
+        <id>41954bac87bd41501fbf54e83cbb35c3</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:44</sys_created_on>
+        <sys_id>bce93a49874289101fbf54e83cbb3586</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:44</sys_updated_on>
+        <table>var__m_sys_hub_action_output_41954bac87bd41501fbf54e83cbb35c3</table>
+        <value>{{step[5481f1d7-9636-456d-96a6-d1b82e5c39c7].user_preference_value}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>41954bac87bd41501fbf54e83cbb35c3</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>d9958bac87bd41501fbf54e83cbb3504</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_41954bac87bd41501fbf54e83cbb35c3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>41954bac87bd41501fbf54e83cbb35c3</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>19958bac87bd41501fbf54e83cbb3504</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_41954bac87bd41501fbf54e83cbb35c3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=41954bac87bd41501fbf54e83cbb35c3^sys_idNOT IN3760551187fdc1101fbf54e83cbb358a,4d954bac87bd41501fbf54e83cbb35d3"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Toggle Polaris User Preference">41954bac87bd41501fbf54e83cbb35c3</action>
+        <cid>4e6680a0-8cb6-4574-86a7-151fe8512361</cid>
+        <error_handling_type>2</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Log step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-19 22:36:47</sys_created_on>
+        <sys_id>3760551187fdc1101fbf54e83cbb358a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:43</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3760551187fdc1101fbf54e83cbb358a"/>
+    <sys_element_mapping action="delete_multiple" query="id=3760551187fdc1101fbf54e83cbb358a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>3760551187fdc1101fbf54e83cbb358a</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-19 22:36:47</sys_created_on>
+        <sys_id>f360551187fdc1101fbf54e83cbb358e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-19 22:36:47</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
+        <value>Toggling Next Experience = {{action.next_experience_enabled}} for user{{action.user}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=3760551187fdc1101fbf54e83cbb358a"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=3760551187fdc1101fbf54e83cbb358a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3760551187fdc1101fbf54e83cbb358a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_3760551187fdc1101fbf54e83cbb358a"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Toggle Polaris User Preference">41954bac87bd41501fbf54e83cbb35c3</action>
+        <cid>5481f1d7-9636-456d-96a6-d1b82e5c39c7</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Set user preference</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>4d954bac87bd41501fbf54e83cbb35d3</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:44</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4d954bac87bd41501fbf54e83cbb35d3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4d954bac87bd41501fbf54e83cbb35d3</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>09954bac87bd41501fbf54e83cbb35e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4d954bac87bd41501fbf54e83cbb35d3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>99954bac87bd41501fbf54e83cbb35e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <value>0</value>
+        <variable display_value="toggleVal">41954bac87bd41501fbf54e83cbb35d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4d954bac87bd41501fbf54e83cbb35d3</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>c9954bac87bd41501fbf54e83cbb35e3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:44</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var prefUtil = new x_snc_enable_ne.PrefMgmtUtil();
+  var fnOutput = prefUtil.savePreference(inputs.user.sys_id, prefUtil.USER_PREF_NAME, inputs.toggleVal);
+  outputs.user_id = fnOutput.userId;
+  outputs.message = fnOutput.message;
+  outputs.user_preference_value = fnOutput.preferenceValue;
+  outputs.preference_record_id = fnOutput.preferenceRecordId;
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4d954bac87bd41501fbf54e83cbb35d3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>4d954bac87bd41501fbf54e83cbb35d3</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>c1954bac87bd41501fbf54e83cbb35e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>4d954bac87bd41501fbf54e83cbb35d3</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>85954bac87bd41501fbf54e83cbb35e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toggleVal</field>
+        <id>4d954bac87bd41501fbf54e83cbb35d3</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>19954bac87bd41501fbf54e83cbb35e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_4d954bac87bd41501fbf54e83cbb35d3</table>
+        <value>{{action.next_experience_enabled}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>4d954bac87bd41501fbf54e83cbb35d3</id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>55954bac87bd41501fbf54e83cbb35e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_4d954bac87bd41501fbf54e83cbb35d3</table>
+        <value>{{action.user}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_4d954bac87bd41501fbf54e83cbb35d3^id=4d954bac87bd41501fbf54e83cbb35d3"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=4d954bac87bd41501fbf54e83cbb35d3"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=4d954bac87bd41501fbf54e83cbb35d3^sys_idNOT IN41954bac87bd41501fbf54e83cbb35d7,8d954bac87bd41501fbf54e83cbb35db"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>toggleVal</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>toggleVal</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Set user preference">4d954bac87bd41501fbf54e83cbb35d3</model>
+        <model_id>4d954bac87bd41501fbf54e83cbb35d3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_4d954bac87bd41501fbf54e83cbb35d3</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>41954bac87bd41501fbf54e83cbb35d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>user</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Set user preference">4d954bac87bd41501fbf54e83cbb35d3</model>
+        <model_id>4d954bac87bd41501fbf54e83cbb35d3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_4d954bac87bd41501fbf54e83cbb35d3</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>8d954bac87bd41501fbf54e83cbb35db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=4d954bac87bd41501fbf54e83cbb35d3^sys_idNOT IN38e93a49874289101fbf54e83cbb3566,39bb41d587bdc1101fbf54e83cbb35d7,78e93a49874289101fbf54e83cbb356a,fce93a49874289101fbf54e83cbb3561"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=57456d41-065c-43dd-9b74-1926bd43296c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user_preference_value</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>User Preference Value</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Set user preference">4d954bac87bd41501fbf54e83cbb35d3</model>
+        <model_id>4d954bac87bd41501fbf54e83cbb35d3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_4d954bac87bd41501fbf54e83cbb35d3</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:43</sys_created_on>
+        <sys_id>38e93a49874289101fbf54e83cbb3566</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6df0eedd-b330-4542-9643-5db26f34d2af</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>message</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Message</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Set user preference">4d954bac87bd41501fbf54e83cbb35d3</model>
+        <model_id>4d954bac87bd41501fbf54e83cbb35d3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_4d954bac87bd41501fbf54e83cbb35d3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-19 22:16:10</sys_created_on>
+        <sys_id>39bb41d587bdc1101fbf54e83cbb35d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID),uiUniqueId=6256cdf2-ea53-4683-8217-f4c1cfaba323</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>preference_record_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label>Preference Record ID</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Set user preference">4d954bac87bd41501fbf54e83cbb35d3</model>
+        <model_id>4d954bac87bd41501fbf54e83cbb35d3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_4d954bac87bd41501fbf54e83cbb35d3</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:43</sys_created_on>
+        <sys_id>78e93a49874289101fbf54e83cbb356a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6018b0ab-741c-42c0-9265-d5adb63f5539</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>User ID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Set user preference">4d954bac87bd41501fbf54e83cbb35d3</model>
+        <model_id>4d954bac87bd41501fbf54e83cbb35d3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_4d954bac87bd41501fbf54e83cbb35d3</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:43</sys_created_on>
+        <sys_id>fce93a49874289101fbf54e83cbb3561</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4d954bac87bd41501fbf54e83cbb35d3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_4d954bac87bd41501fbf54e83cbb35d3^sys_idNOT IN78e93a49874289101fbf54e83cbb3565,82bb41d587bdc1101fbf54e83cbb35dc,b8e93a49874289101fbf54e83cbb3569,f8e93a49874289101fbf54e83cbb356d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>user_id</element>
+        <help/>
+        <hint/>
+        <label>User ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_4d954bac87bd41501fbf54e83cbb35d3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:43</sys_created_on>
+        <sys_id>78e93a49874289101fbf54e83cbb3565</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>message</element>
+        <help/>
+        <hint/>
+        <label>Message</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_4d954bac87bd41501fbf54e83cbb35d3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-19 22:16:10</sys_created_on>
+        <sys_id>82bb41d587bdc1101fbf54e83cbb35dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-19 22:16:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>user_preference_value</element>
+        <help/>
+        <hint/>
+        <label>User Preference Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_4d954bac87bd41501fbf54e83cbb35d3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:43</sys_created_on>
+        <sys_id>b8e93a49874289101fbf54e83cbb3569</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>preference_record_id</element>
+        <help/>
+        <hint/>
+        <label>Preference Record ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_4d954bac87bd41501fbf54e83cbb35d3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:43</sys_created_on>
+        <sys_id>f8e93a49874289101fbf54e83cbb356d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=41954bac87bd41501fbf54e83cbb35c3^sys_idNOT IN49954bac87bd41501fbf54e83cbb35cb,81954bac87bd41501fbf54e83cbb35c6"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=d90d9a9f-9dd0-46e1-84c0-b213190b737f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_user</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>User</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Toggle Polaris User Preference">41954bac87bd41501fbf54e83cbb35c3</model>
+        <model_id>41954bac87bd41501fbf54e83cbb35c3</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_41954bac87bd41501fbf54e83cbb35c3</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>49954bac87bd41501fbf54e83cbb35cb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=49954bac87bd41501fbf54e83cbb35cb"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=2191ab87-d35b-46c4-a6e5-ae4ae491c6f7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>next_experience_enabled</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Next Experience Enabled</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Toggle Polaris User Preference">41954bac87bd41501fbf54e83cbb35c3</model>
+        <model_id>41954bac87bd41501fbf54e83cbb35c3</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_41954bac87bd41501fbf54e83cbb35c3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:08</sys_created_on>
+        <sys_id>81954bac87bd41501fbf54e83cbb35c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=81954bac87bd41501fbf54e83cbb35c6"/>
+    <sys_hub_action_output action="delete_multiple" query="model=41954bac87bd41501fbf54e83cbb35c3^sys_idNOT IN02bb41d587bdc1101fbf54e83cbb35f4,59954bac87bd41501fbf54e83cbb35fb,91954bac87bd41501fbf54e83cbb35f6,b8e93a49874289101fbf54e83cbb357a,f0e93a49874289101fbf54e83cbb357f"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=42d5fef3-c245-4943-9e67-3d3b4b0fb134</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>message</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Message</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Toggle Polaris User Preference">41954bac87bd41501fbf54e83cbb35c3</model>
+        <model_id>41954bac87bd41501fbf54e83cbb35c3</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_41954bac87bd41501fbf54e83cbb35c3</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-19 22:16:10</sys_created_on>
+        <sys_id>02bb41d587bdc1101fbf54e83cbb35f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-19 22:16:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=02bb41d587bdc1101fbf54e83cbb35f4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=02bb41d587bdc1101fbf54e83cbb35f4"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=a4077ea7-24c7-4502-a2e9-6788be36db80,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Toggle Polaris User Preference">41954bac87bd41501fbf54e83cbb35c3</model>
+        <model_id>41954bac87bd41501fbf54e83cbb35c3</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_41954bac87bd41501fbf54e83cbb35c3</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>59954bac87bd41501fbf54e83cbb35fb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=59954bac87bd41501fbf54e83cbb35fb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=59954bac87bd41501fbf54e83cbb35fb"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDd9954baca6bd4150f10b64a998f15cf3,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=7c644bb6-9ae0-4d38-a594-b410b558dc81</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Toggle Polaris User Preference">41954bac87bd41501fbf54e83cbb35c3</model>
+        <model_id>41954bac87bd41501fbf54e83cbb35c3</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_41954bac87bd41501fbf54e83cbb35c3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>91954bac87bd41501fbf54e83cbb35f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=91954bac87bd41501fbf54e83cbb35f6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=91954bac87bd41501fbf54e83cbb35f6"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=861f7bdc-378f-4fdd-8834-0db730d20c92</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>updated_pref_value</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Updated Preference Value</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Toggle Polaris User Preference">41954bac87bd41501fbf54e83cbb35c3</model>
+        <model_id>41954bac87bd41501fbf54e83cbb35c3</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_41954bac87bd41501fbf54e83cbb35c3</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:44</sys_created_on>
+        <sys_id>b8e93a49874289101fbf54e83cbb357a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b8e93a49874289101fbf54e83cbb357a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b8e93a49874289101fbf54e83cbb357a"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID),uiUniqueId=4049cac1-7fdc-4187-8bc9-b246a5f21ce7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>pref_record_id</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">GUID</internal_type>
+        <label>Preference Record ID</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Toggle Polaris User Preference">41954bac87bd41501fbf54e83cbb35c3</model>
+        <model_id>41954bac87bd41501fbf54e83cbb35c3</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_41954bac87bd41501fbf54e83cbb35c3</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:44</sys_created_on>
+        <sys_id>f0e93a49874289101fbf54e83cbb357f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f0e93a49874289101fbf54e83cbb357f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f0e93a49874289101fbf54e83cbb357f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=41954bac87bd41501fbf54e83cbb35c3"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=41954bac87bd41501fbf54e83cbb35c3^sys_idNOT IN1d958bac87bd41501fbf54e83cbb3506"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Toggle Polaris User Preference">41954bac87bd41501fbf54e83cbb35c3</action_type_id>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>1d958bac87bd41501fbf54e83cbb3506</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=1d958bac87bd41501fbf54e83cbb3506"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_41954bac87bd41501fbf54e83cbb35c3^sys_idNOT IN45954bac87bd41501fbf54e83cbb35d1,89954bac87bd41501fbf54e83cbb35ca"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>user</element>
+        <help/>
+        <hint/>
+        <label>User</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_41954bac87bd41501fbf54e83cbb35c3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>45954bac87bd41501fbf54e83cbb35d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>next_experience_enabled</element>
+        <help/>
+        <hint/>
+        <label>Next Experience Enabled</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_41954bac87bd41501fbf54e83cbb35c3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>89954bac87bd41501fbf54e83cbb35ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_41954bac87bd41501fbf54e83cbb35c3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_41954bac87bd41501fbf54e83cbb35c3^sys_idNOT IN34e93a49874289101fbf54e83cbb357e,3ce93a49874289101fbf54e83cbb3582,59958bac87bd41501fbf54e83cbb3501,99954bac87bd41501fbf54e83cbb35fa,c2bb41d587bdc1101fbf54e83cbb35f8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>updated_pref_value</element>
+        <help/>
+        <hint/>
+        <label>Updated Preference Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_41954bac87bd41501fbf54e83cbb35c3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:44</sys_created_on>
+        <sys_id>34e93a49874289101fbf54e83cbb357e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>pref_record_id</element>
+        <help/>
+        <hint/>
+        <label>Preference Record ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_41954bac87bd41501fbf54e83cbb35c3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-03-03 21:54:44</sys_created_on>
+        <sys_id>3ce93a49874289101fbf54e83cbb3582</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 21:54:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_41954bac87bd41501fbf54e83cbb35c3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>59958bac87bd41501fbf54e83cbb3501</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_41954bac87bd41501fbf54e83cbb35c3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-17 23:13:09</sys_created_on>
+        <sys_id>99954bac87bd41501fbf54e83cbb35fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-17 23:13:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>message</element>
+        <help/>
+        <hint/>
+        <label>Message</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_41954bac87bd41501fbf54e83cbb35c3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>roshan.rao@servicenow.com</sys_created_by>
+        <sys_created_on>2022-02-19 22:16:10</sys_created_on>
+        <sys_id>c2bb41d587bdc1101fbf54e83cbb35f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Enable Next Experience" source="x_snc_enable_ne">119bfaa8877d41501fbf54e83cbb35ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enable Next Experience">119bfaa8877d41501fbf54e83cbb35ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>roshan.rao@servicenow.com</sys_updated_by>
+        <sys_updated_on>2022-02-19 22:16:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_41954bac87bd41501fbf54e83cbb35c3"/>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>a931c7e487bd41501fbf54e83cbb350d</sys_id>
+        <latest_snapshot>41954bac87bd41501fbf54e83cbb35c3</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>
